@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/personal-banking" mode="merge"/>
+    <filter root="/content/personal-banking" mode="merge"/>
+    <filter root="/content/dam/personal-banking" mode="merge"/>
+    <filter root="/content/experience-fragments/personal-banking" mode="merge"/>
+</workspaceFilter>
