@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2021-04-22T15:55:31.096Z"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/personal-banking/settings/wcm/template-types/custom-empty-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="custom container template"
+        status="draft"/>
+</jcr:root>

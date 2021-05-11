@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-05-07T06:34:55.588Z"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-04-12T11:56:02.875Z"
+        cq:lastReplicatedBy="admin"
+        cq:template="/conf/personal-banking/settings/wcm/templates/homepage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:uuid="50acd869-fc5c-41f9-a896-5df47661d7b1"
+        sling:resourceType="personal-banking/components/structure/basePage">
+        <root
+            jcr:lastModified="{Date}2021-04-21T15:03:17.190Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="component-library/components/responsivegrid">
+            <header
+                jcr:created="{Date}2021-04-21T15:03:19.960Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-04-21T15:03:19.960Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="personal-banking/components/structure/header"/>
+            <footer
+                jcr:created="{Date}2021-04-23T02:30:14.258Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-07T10:54:31.732Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="personal-banking/components/structure/footer"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

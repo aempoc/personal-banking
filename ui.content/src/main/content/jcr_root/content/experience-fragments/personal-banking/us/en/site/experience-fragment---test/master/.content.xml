@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-04-22T11:56:56.884Z"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/personal-banking/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Experience FragmenT - test"
+        sling:resourceType="personal-banking/components/xfpage">
+        <root
+            cq:masterBuildingBlock="{Boolean}true"
+            jcr:lastModified="{Date}2021-04-16T16:26:26.606Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="tesing-bb"
+            sling:resourceType="cq/experience-fragments/editor/components/buildingblock">
+            <root160477154232200
+                jcr:lastModified="{Date}2021-04-16T16:24:20.569Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="personal-banking/components/container"
+                layout="responsiveGrid">
+                <image
+                    jcr:created="{Date}2021-04-16T16:17:41.921Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-16T16:19:33.276Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="personal-banking/components/image"
+                    altValueFromDAM="false"
+                    displayPopupTitle="false"
+                    fileReference="/content/dam/we-retail/en/experiences/48-hours-of-wilderness/48-hours-of-wilderness-1.jpg"
+                    isDecorative="false"
+                    titleValueFromDAM="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </image>
+                <title
+                    jcr:created="{Date}2021-04-16T16:17:55.944Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-22T11:56:56.828Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Title 2"
+                    sling:resourceType="personal-banking/components/title"
+                    type="h1">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            behavior="newline"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </title>
+                <text
+                    jcr:created="{Date}2021-04-16T16:18:04.774Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-16T16:20:47.149Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="personal-banking/components/text"
+                    text="&lt;h4>&lt;i>This is my first experience fragmnet&lt;/i>&lt;/h4>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            behavior="newline"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </text>
+                <button
+                    jcr:created="{Date}2021-04-16T16:21:01.591Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-16T16:21:18.369Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="home"
+                    sling:resourceType="personal-banking/components/button">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            behavior="newline"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </button>
+            </root160477154232200>
+        </root>
+    </jcr:content>
+</jcr:root>
