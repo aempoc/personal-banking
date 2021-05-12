@@ -16,14 +16,10 @@
         sling:resourceType="personal-banking/components/spa"
         pageTitle="Personal Banking"/>
     <New-template-page/>
-    <Demo/>
     <test-experience-fragment/>
-    <new/>
     <page-with-new-temp-container/>
     <home/>
-    <Test-container/>
-    <test-exp-fragment/>
-    <test-test-exp-frag/>
-    <test2/>
     <test-header-footer/>
+    <service-description/>
+    <service-description-2-col/>
 </jcr:root>
