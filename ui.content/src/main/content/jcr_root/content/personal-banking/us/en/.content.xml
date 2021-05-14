@@ -15,11 +15,8 @@
         jcr:uuid="8741edfa-99e5-4f5f-973f-5d2520debb1d"
         sling:resourceType="personal-banking/components/spa"
         pageTitle="Personal Banking"/>
-    <New-template-page/>
-    <test-experience-fragment/>
-    <page-with-new-temp-container/>
-    <home/>
-    <test-header-footer/>
-    <service-description/>
     <service-description-2-col/>
+    <column-control/>
+    <text-with-button/>
+    <test-teaser/>
 </jcr:root>

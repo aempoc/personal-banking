@@ -26,7 +26,4 @@
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
     </jcr:content>
-    <home/>
-    <test-column-control/>
-    <test/>
 </jcr:root>

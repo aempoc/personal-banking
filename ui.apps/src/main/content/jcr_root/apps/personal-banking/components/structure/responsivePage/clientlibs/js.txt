@@ -1,2 +1,0 @@
-src/library.js
-src/default.js
