@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-05-19T11:53:03.661Z"
+        cq:lastModified="{Date}2021-06-01T11:13:53.186Z"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2021-05-19T10:38:41.437Z"
         cq:lastReplicatedBy="admin"
@@ -20,6 +20,10 @@
             <body jcr:primaryType="nt:unstructured">
                 <par_0
                     cq:policy="/apps/component-library/components/layouts/parsys/policy_1620818386592"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <container
+                    cq:policy="/libs/wcm/foundation/components/responsivegrid/policy_1622546019524"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/core/components/policies/mapping"/>
             </body>

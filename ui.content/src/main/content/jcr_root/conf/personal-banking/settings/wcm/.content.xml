@@ -702,6 +702,48 @@
                 </components>
             </component-library>
         </apps>
+        <core jcr:primaryType="nt:unstructured">
+            <wcm jcr:primaryType="nt:unstructured">
+                <components jcr:primaryType="nt:unstructured">
+                    <form jcr:primaryType="nt:unstructured">
+                        <container jcr:primaryType="nt:unstructured">
+                            <v2 jcr:primaryType="nt:unstructured">
+                                <container jcr:primaryType="nt:unstructured">
+                                    <policy_1622545696350
+                                        jcr:lastModified="{Date}2021-06-01T11:09:12.005Z"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="layout-container"
+                                        sling:resourceType="wcm/core/components/policy/policy"
+                                        components="group:Component Library - Content">
+                                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                                    </policy_1622545696350>
+                                </container>
+                            </v2>
+                        </container>
+                    </form>
+                </components>
+            </wcm>
+        </core>
+        <libs jcr:primaryType="nt:unstructured">
+            <wcm jcr:primaryType="nt:unstructured">
+                <foundation jcr:primaryType="nt:unstructured">
+                    <components jcr:primaryType="nt:unstructured">
+                        <responsivegrid jcr:primaryType="nt:unstructured">
+                            <policy_1622546019524
+                                jcr:lastModified="{Date}2021-06-01T11:13:53.182Z"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="policy"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                components="group:Component Library - Content">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                            </policy_1622546019524>
+                        </responsivegrid>
+                    </components>
+                </foundation>
+            </wcm>
+        </libs>
     </policies>
     <segments/>
     <template-types/>

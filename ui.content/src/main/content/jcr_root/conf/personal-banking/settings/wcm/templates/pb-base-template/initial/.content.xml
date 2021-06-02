@@ -8,20 +8,25 @@
         jcr:primaryType="cq:PageContent"
         sling:resourceType="personal-banking/components/structure/basePage">
         <root
-            jcr:lastModified="{Date}2021-05-19T10:38:05.046Z"
+            jcr:lastModified="{Date}2021-05-31T14:35:23.119Z"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="component-library/components/responsivegrid">
+            <header
+                jcr:created="{Date}2021-05-12T10:41:54.987Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-31T12:50:15.122Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="personal-banking/components/structure/header"/>
             <body
                 jcr:created="{Date}2021-05-12T10:50:27.785Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-05-31T10:50:22.840Z"
+                jcr:lastModified="{Date}2021-06-01T11:05:37.834Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="personal-banking/components/structure/body">
                 <par_0
-                    jcr:lastModified="{Date}2021-05-19T11:30:39.268Z"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="component-library/components/layouts/parsys"/>
             </body>
