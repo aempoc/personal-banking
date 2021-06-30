@@ -8,21 +8,14 @@
         jcr:primaryType="cq:PageContent"
         sling:resourceType="personal-banking/components/structure/basePage">
         <root
-            jcr:lastModified="{Date}2021-05-31T14:35:23.119Z"
+            jcr:lastModified="{Date}2021-06-14T12:54:16.637Z"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="component-library/components/responsivegrid">
-            <header
-                jcr:created="{Date}2021-05-12T10:41:54.987Z"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-05-31T12:50:15.122Z"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="personal-banking/components/structure/header"/>
             <body
                 jcr:created="{Date}2021-05-12T10:50:27.785Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-06-01T11:05:37.834Z"
+                jcr:lastModified="{Date}2021-06-14T12:54:55.726Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="personal-banking/components/structure/body">
@@ -30,6 +23,13 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="component-library/components/layouts/parsys"/>
             </body>
+            <header
+                jcr:created="{Date}2021-05-12T10:41:54.987Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-31T12:50:15.122Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="personal-banking/components/structure/header"/>
         </root>
     </jcr:content>
 </jcr:root>

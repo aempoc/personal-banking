@@ -1,0 +1,39 @@
+<style>
+.cmp-search__loading-indicator {
+left: -0.5rem;
+}
+.cmp-search__item{
+	height:3rem;
+    font-size: 125%;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+</style>
+
+<section  role="search"
+         data-sly-use.search="com.adobe.cq.wcm.core.components.models.Search"
+         data-cmp-is="search"
+         data-cmp-min-length="${search.searchTermMinimumLength}"
+         data-cmp-results-size="${search.resultsSize}">
+   <div class="td-nav-desktop-search">
+       <div class="td-search-container">
+         <link rel="stylesheet" href="https://www.td.com/ca/en/personal-banking/system/v1.5/assets/css/selfHelp/main.css">
+         <form class="cmp-search__form td-search-box ng-pristine ng-valid" data-cmp-hook-search="form" method="get" action="${currentPage.path @ addSelectors=['searchresults'], extension='json', suffix = search.relativePath}"  autocomplete="off" role="search">
+             <input type="text"    class="td-search-input cmp-search__input" data-cmp-hook-search="input"  aria-label="Search" name="fulltext" placeholder="${'Search' @ i18n}" autocomplete="off" aria-autocomplete="list" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-invalid="false"  aria-expanded="false">
+             <div ng-if="$ctrl.suggestions.length > 0 && !$ctrl.hideSuggestions" class="suggestion-dropdown">
+                  <div class="suggestion-item" ng-repeat="suggestion in $ctrl.suggestions track by $index" ng-mouseover="$ctrl.hover($index)" ng-click="$ctrl.clickSuggestion($index)" ng-class="{'selected-suggestion': $index == $ctrl.selected}"> </div>
+              </div>
+              <span class="td-search-icon" aria-hidden="true"><span class="td-icon"></span></span>
+              <span class="cmp-search__loading-indicator" data-cmp-hook-search="loadingIndicator"></span>
+			  <button class="cmp-search__clear td-search-submit" data-cmp-hook-search="clear">
+              </button>
+          </form>
+
+		 <div class="cmp-search__results" data-cmp-hook-search="results" role="listbox" aria-multiselectable="false">
+         </div>
+   		 <sly data-sly-include="itemTemplate.html"/>
+         <button type="button" class="td-desktop-search-hide-btn" ><span class="td-forscreenreader">Close Search</span><span class="td-icon" aria-hidden="true"></span></button>
+
+     </div>
+  </div>
+</section>

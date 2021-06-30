@@ -2,11 +2,11 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2021-05-07T06:34:55.589Z"
+        cq:lastModified="{Date}2021-06-14T11:39:24.264Z"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/personal-banking/settings/wcm/template-types/empty-page"
         jcr:description="Home Page template"
         jcr:primaryType="cq:PageContent"
         jcr:title="HomePage"
-        status="draft"/>
+        status="disabled"/>
 </jcr:root>

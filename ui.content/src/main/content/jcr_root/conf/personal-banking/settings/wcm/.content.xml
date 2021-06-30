@@ -446,12 +446,12 @@
                 <accordion jcr:primaryType="nt:unstructured"/>
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_1618730352134
-                        jcr:lastModified="{Date}2021-05-19T10:35:52.641Z"
+                        jcr:lastModified="{Date}2021-06-14T11:50:37.499Z"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="HomePage"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:Component Library - Content]">
+                        components="[group:Component Library - Content,group:Personal Banking - Content]">
                         <jcr:content
                             cq:lastReplicated="{Date}2021-05-19T10:38:41.437Z"
                             cq:lastReplicatedBy="admin"
@@ -486,6 +486,15 @@
                         components="[group:General,group:Personal Banking - Content]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_676803670085500>
+                    <policy_411399622190300
+                        jcr:lastModified="{Date}2021-06-14T12:13:17.726Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Search"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:Component Library - Content,group:Personal Banking - Content]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_411399622190300>
                 </responsivegrid>
                 <title jcr:primaryType="nt:unstructured"/>
                 <text jcr:primaryType="nt:unstructured">
@@ -647,6 +656,145 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1621424006038>
                 </container>
+                <atomic jcr:primaryType="nt:unstructured">
+                    <text jcr:primaryType="nt:unstructured">
+                        <v1 jcr:primaryType="nt:unstructured">
+                            <text jcr:primaryType="nt:unstructured">
+                                <policy_1623675199967
+                                    jcr:lastModified="{Date}2021-06-14T12:54:03.918Z"
+                                    jcr:lastModifiedBy="admin"
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="titlepolicy"
+                                    sling:resourceType="wcm/core/components/policy/policy">
+                                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                                    <rtePlugins jcr:primaryType="nt:unstructured">
+                                        <paraformat
+                                            jcr:primaryType="nt:unstructured"
+                                            features="-">
+                                            <formats
+                                                jcr:primaryType="nt:unstructured"
+                                                override="true">
+                                                <item0
+                                                    jcr:primaryType="nt:unstructured"
+                                                    description="Paragraph"
+                                                    tag="p"/>
+                                                <item1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    description="Heading 1"
+                                                    tag="h1"/>
+                                                <item2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    description="Heading 2"
+                                                    tag="h2"/>
+                                                <item3
+                                                    jcr:primaryType="nt:unstructured"
+                                                    description="Heading 3"
+                                                    tag="h3"/>
+                                                <item4
+                                                    jcr:primaryType="nt:unstructured"
+                                                    description="Heading 4"
+                                                    tag="h4"/>
+                                                <item5
+                                                    jcr:primaryType="nt:unstructured"
+                                                    description="Heading 5"
+                                                    tag="h5"/>
+                                                <item6
+                                                    jcr:primaryType="nt:unstructured"
+                                                    description="Heading 6"
+                                                    tag="h6"/>
+                                                <item7
+                                                    jcr:primaryType="nt:unstructured"
+                                                    description="Quote"
+                                                    tag="blockquote"/>
+                                                <item8
+                                                    jcr:primaryType="nt:unstructured"
+                                                    description="Horizontal Rule (visual line break)"
+                                                    tag="hr"/>
+                                                <item9
+                                                    jcr:primaryType="nt:unstructured"
+                                                    description="Preformatted"
+                                                    tag="pre"/>
+                                            </formats>
+                                        </paraformat>
+                                        <misctools
+                                            jcr:primaryType="nt:unstructured"
+                                            features="-">
+                                            <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                                <chars
+                                                    jcr:primaryType="nt:unstructured"
+                                                    override="true">
+                                                    <item0
+                                                        jcr:primaryType="nt:unstructured"
+                                                        entity="&amp;copy;"
+                                                        name="copyright"/>
+                                                    <item1
+                                                        jcr:primaryType="nt:unstructured"
+                                                        entity="&amp;euro;"
+                                                        name="euro"/>
+                                                    <item2
+                                                        jcr:primaryType="nt:unstructured"
+                                                        entity="&amp;reg;"
+                                                        name="registered"/>
+                                                    <item3
+                                                        jcr:primaryType="nt:unstructured"
+                                                        entity="&amp;trade;"
+                                                        name="trademark"/>
+                                                </chars>
+                                            </specialCharsConfig>
+                                        </misctools>
+                                        <edit
+                                            jcr:primaryType="nt:unstructured"
+                                            features="-"/>
+                                        <findreplace
+                                            jcr:primaryType="nt:unstructured"
+                                            features="-"/>
+                                        <undo
+                                            jcr:primaryType="nt:unstructured"
+                                            features="-"/>
+                                        <spellcheck
+                                            jcr:primaryType="nt:unstructured"
+                                            features="-"/>
+                                        <image
+                                            jcr:primaryType="nt:unstructured"
+                                            features="-"/>
+                                        <table
+                                            jcr:primaryType="nt:unstructured"
+                                            features="-"/>
+                                        <lists
+                                            jcr:primaryType="nt:unstructured"
+                                            features="*"/>
+                                        <justify
+                                            jcr:primaryType="nt:unstructured"
+                                            features="-"/>
+                                        <format
+                                            jcr:primaryType="nt:unstructured"
+                                            features="bold,italic"/>
+                                        <links
+                                            jcr:primaryType="nt:unstructured"
+                                            features="modifylink,unlink"/>
+                                        <subsuperscript
+                                            jcr:primaryType="nt:unstructured"
+                                            features="-"/>
+                                    </rtePlugins>
+                                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            cq:styleGroupLabel="Hide"
+                                            cq:styleGroupMultiple="true"
+                                            jcr:primaryType="nt:unstructured">
+                                            <cq:styles jcr:primaryType="nt:unstructured">
+                                                <item0
+                                                    cq:styleClasses="hidden-xs"
+                                                    cq:styleId="1623675212399"
+                                                    cq:styleLabel="Mobile"
+                                                    jcr:primaryType="nt:unstructured"/>
+                                            </cq:styles>
+                                        </item0>
+                                    </cq:styleGroups>
+                                </policy_1623675199967>
+                            </text>
+                        </v1>
+                    </text>
+                </atomic>
             </components>
         </component-library>
         <apps jcr:primaryType="nt:unstructured">
@@ -683,14 +831,14 @@
                     <layouts jcr:primaryType="nt:unstructured">
                         <parsys jcr:primaryType="nt:unstructured">
                             <policy_1620818386592
-                                jcr:lastModified="{Date}2021-05-19T11:53:03.656Z"
+                                jcr:lastModified="{Date}2021-06-24T02:21:52.295Z"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="pb-body-policy"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                components="[group:Component Library - Content]">
+                                components="[group:General,group:Component Library - Content,group:Personal Banking - Content,group:We.Retail Form]">
                                 <jcr:content
-                                    cq:lastReplicated="{Date}2021-05-12T11:44:01.919Z"
+                                    cq:lastReplicated="{Date}2021-06-02T10:14:10.598Z"
                                     cq:lastReplicatedBy="admin"
                                     cq:lastReplicationAction="Activate"
                                     jcr:mixinTypes="[cq:ReplicationStatus]"
@@ -701,6 +849,11 @@
                     </layouts>
                 </components>
             </component-library>
+            <personal-banking jcr:primaryType="nt:unstructured">
+                <components jcr:primaryType="nt:unstructured">
+                    <search jcr:primaryType="nt:unstructured"/>
+                </components>
+            </personal-banking>
         </apps>
         <core jcr:primaryType="nt:unstructured">
             <wcm jcr:primaryType="nt:unstructured">
@@ -737,7 +890,12 @@
                                 jcr:title="policy"
                                 sling:resourceType="wcm/core/components/policy/policy"
                                 components="group:Component Library - Content">
-                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                                <jcr:content
+                                    cq:lastReplicated="{Date}2021-06-02T10:14:10.598Z"
+                                    cq:lastReplicatedBy="admin"
+                                    cq:lastReplicationAction="Activate"
+                                    jcr:mixinTypes="[cq:ReplicationStatus]"
+                                    jcr:primaryType="nt:unstructured"/>
                             </policy_1622546019524>
                         </responsivegrid>
                     </components>
